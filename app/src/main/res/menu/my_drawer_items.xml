@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        android:title="Products"
+        android:id="@+id/productsId"
+        android:icon="@drawable/baseline_local_drink_24">
+
+    </item>
+
+
+    <item android:icon="@drawable/baseline_calendar_today_24"
+          android:title="Schedule"
+          android:id="@+id/scheduleId"/>
+
+
+    <item android:icon="@drawable/baseline_contacts_24"
+          android:title="Testimonials"
+          android:id="@+id/testimonialId"/>
+    <item android:checkable="false" android:icon="@drawable/baseline_settings_24"
+          android:title="Settings"
+          android:id="@+id/settingsId"/>
+</menu>
+
+
